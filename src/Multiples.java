@@ -6,7 +6,7 @@ public class Multiples {
            boolean m5lessthan1000 = i * 5 < 1000;
 
            if (m3lessthan1000 && m5lessthan1000) {
-               tot += 1;
+               tot++;
            }
         }
         System.out.println(tot);
